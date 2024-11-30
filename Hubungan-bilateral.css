@@ -1,0 +1,85 @@
+
+img{
+    width: 150px;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+}
+/* Kode CSS Navigator */
+ul{
+    list-style: none;
+    background: rgb(255, 220, 225);
+    padding: 0px 0px;
+    margin:120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 70px;
+}
+ul li{
+    display: inline-block;
+    position:relative;
+    height:50px;
+    padding: 5px 5px;
+}
+ul li a{
+    padding: 5px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color:skyblue;
+} 
+/* kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background: white;
+    position:absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 2px 2px;
+    box-shadow: pink;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* Kode css side bar */
+.column{
+    float: left;
+    padding:0px 5px;
+}
+/* Kode CSS Middle Bar */
+.column.middle{
+    margin: 190px 0px;
+    width: 1240px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 3px dotted;
+    padding: 0px;
+    text-align: center;
+    color: rgb(81, 187, 230);
+    padding: 10px;
+}
+img.footer{
+    margin-bottom: 0%;
+    width: auto;
+    height: auto;
+}
+body{
+    background-color: beige;
+}
+img.kereta{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.kereta:hover{
+    box-shadow: 3px 3px 3px skyblue;
+}
+p{
+    text-align: left;
+}
